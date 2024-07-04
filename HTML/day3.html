@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Little Tea Shop</h1>
+    </header>
+    <nav>
+        <ul >
+            <li><a href="#AboutLTS">AboutLTS</a></li>
+            <li><a href="#OurMenu">OurMenu</a></li>
+            <li><a href="#Website">Website</a></li>
+            <li><a href="#Cantactus">Cantactus</a></li>
+        </ul>
+    </nav>
+    <section id="index">
+        <img src="img.jpg">
+        <figcaption>Teas and a drink</figcaption>
+    </section>
+    <hr>
+    <section id="AboutLTS">
+        <h1>About <abbr title="Little Tea Shop">LTS</abbr></h1>
+        <abbr title="Little Tea Shop">LTS</abbr> was founded in 2022. Our  shop was built from a love of Tea☕️☕️☕️.
+        <h2>Tea Trivia</h2>
+        <details>
+            <summary>When did Teas first appear in the United Stated?</summary>
+            The first tree may have been Wattieza, fossils of which were found in New York state in 2007 dating back to the Middle Devonian (about 385 million years ago).
+        </details>
+    </section>
+    <hr>
+    <section id="OurMenu">
+        <h1>Our Menu</h1>
+        
+        <table border="2" cellpadding="10" cellsapcing="15">
+            <caption>Our Teas</caption>
+            <thead>
+                <tr>
+                    <th>Teas</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">Masala</th>
+                    <td>1</td>
+                    <td> &#8377; 15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> &#8377; 20</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> &#8377; 35</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">lemon</th>
+                    <td>1</td>
+                    <td> &#8377; 10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> &#8377; 15</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> &#8377; 25</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Chips/samosa </td>
+                    <td>&#8377;10</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a href="#index">Back To Top</a>
+    </section>
+    <hr>
+    <section id="Website" >
+        <h1>Website</h1>
+        <form action="">
+            <SECTION id="details">
+                <section id="feedback">
+                    <input type="text" placeholder="Enter your Name" size="25" pattern="[a-z]{5,8}" required><br><br>
+                    <label for="age">Age</label>
+                    <input type="number" min="18" max="40" id="age" size="10"><br><br>
+                    <label for="phno">Phone Number</label>
+                    <input type="number" id="phno" nrequired><br><br>
+                    <label for="email" placeholer="Enter your email">Email</label>
+                    <input type="email" id="email" required size="23"><br><br><br><br>
+                    <label for="text">Content</label><br><br>
+                    <textarea name="feedback" id="text" cols="29" rows="10"></textarea><br>
+                </section>
+                <section id="gender">
+                    <h1>Gender</h1>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male"><br>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female"><br>
+                </section>
+                <section id="drinks">
+                    <h1>Drinks</h1>
+                    <label for="Tea">Tea</label>
+                    <input type="checkbox" name="drink" id="Tea"><br>
+                    <label for="coffee">coffee</label>
+                    <input type="checkbox" name="drink" id="coffee"><br>
+                    <label for="Freshjuice">Freshjuice</label>
+                    <input type="checkbox" name="drink" id="Freshjuice"><br>
+                </section>
+
+                <input type="submit" value="submit">
+            </SECTION>
+        </form>
+    </section>
+</body>
+</html>

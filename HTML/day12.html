@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        /* div{
+            width: 500px;
+             overflow-x: hidden;
+            overflow-y: scroll; 
+            overflow:  scroll scroll;
+            height: 90px;
+        }
+        p{
+            width: 700px;
+           height: fit-content;
+           cursor:copy;
+        }
+        p:active{
+            cursor: grabbing; 
+        }*/
+        .child-div{
+            color: whitesmoke;
+            height: 100px;
+            width: auto;
+            /* width: 100px;
+            flex-grow: 1; */
+        }
+        .parent-div{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 3fr 1fr;
+            background-color: aquamarine;
+            /* justify-content:last baseline ;
+            margin:auto; */
+            place-content: center;
+            width: auto;
+            height: 80vh;
+            /* flex-wrap: wrap; */
+            gap: 15px;
+        }
+        @media (max-width:500px) {
+            .parent-div{
+                grid-template-columns: 1fr 2fr ;
+            grid-template-rows: 1fr 3fr 1fr 2fr;
+            }
+            .child-div{
+                background-color:aqua;
+            }
+        }
+        @media (max-width:200px){
+        .parent-div{
+    grid-template-columns: 1fr;
+                }       }          
+        /* .child1{
+            flex-wrap: 1;
+        }
+        .child2{
+            flex-wrap: 2;
+        }
+        .child3{
+            flex-grow: 3;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iste veniam nobis ut 
+            accusamus necessitatibus,beatae praesentium repellat accusantium quibusdam sunt
+            quisquam nisi explicabo?Consequuntur, consequatur corporis. Natus eum laudantium 
+            teaque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci,
+             quibusdam nihil explicabo consequatur perferendis nostrum praesentium dicta illum 
+             nam accusantium ad commodi nesciunt! Culpa voluptatum laborum possimus eligendi aut!</p>
+    </div> -->
+    <!-- flex -->
+    <div class="parent-div">
+         <div class="child-div child1 text-danger">
+          WELCOME TO 
+         </div>
+         <div class="child-div child2 text-warning">
+            BCA -III A
+         </div>
+         <div class="child-div child3 text-success">
+            KGCAS
+         </div>
+         <div class="child-div child1 bg-danger">
+          WELCOME TO 
+         </div>
+         <div class="child-div child2 bg-warning">
+            BCA -III A
+         </div>
+         <div class="child-div child3 bg-success">
+            KGCAS
+         </div>
+         <div class="child-div child1">
+            WELCOME TO 
+           </div>
+           <div class="child-div child2">
+              BCA -III A
+           </div>
+           <div class="child-div child3">
+              KGCAS
+           </div>
+    </div>
+</body>
+</html>

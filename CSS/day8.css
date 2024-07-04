@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: rgb(2,113,247);
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 45px;
+    width: auto;
+}
+.logo img{
+    background-color: rgb(101,153,255);
+    border: 5px;
+    border-color: #6599ff;
+    border-radius: 22px ;
+}
+span{
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    margin: 4px;
+}
+li{
+    list-style-type: none;
+    padding: 0px 10px;
+}
+a{
+    text-decoration:none;
+    font-size: 20px;
+    margin: 6px;
+    color: white;
+}
+input ,button{
+border: none;
+}
+input{
+outline: none;
+border-radius: 25px;
+padding: 10px;
+padding-left: 25px;
+}
+button{
+    background-color:#f4526a ;
+    color: white ;
+    height: 100%;
+    border-radius:35px ;
+    padding: 10px;
+    margin-left: -3%;
+}
+button:active{
+    scale: .94;
+}
+button:hover{
+    box-shadow: 10px grey;
+}
+.div3 div{
+   
+    width: fit-content;
+    border-radius:20px ;
+    padding-left: 5% ;
+    height: 30px;
+}
+.div3{
+    margin-top: 3%;
+    margin-left: 40px;
+}
+#div2{
+    margin-left: 40px;
+    margin-top: 15%;
+    width: 500px;
+
+}
+#div2 h1{
+    text-transform:uppercase ;
+    font-size: 35px;
+}
+#div2 h4{
+    text-transform: uppercase;
+    font-size: medium;
+
+}
+#div2 h3{
+    margin-top: 3%;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.div4 img{
+    float: right;
+    margin-top: -20%;
+    margin-right: 5%;
+    border-radius: 15px;
+    height: 350px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table tr:nth-child(odd){
+            background-color: aqua;
+        }
+        table tr:nth-child(even){
+            background-color: aquamarine;
+        }
+        th{
+            background-color:cadetblue;
+        }
+        table, th, td{
+            border: 2px solid blue;
+            /* border-collapse:collapse; */
+            padding: 10px;
+            width: fit-content;
+            margin: auto;
+            empty-cells: hide;
+            border-spacing: 10px;
+            table-layout: fixed ;
+            caption-side:bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Marks</caption>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+
+            <tr>
+                <td>112</td>
+                <td>Raj</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>113</td>
+                <td>Jey</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>114</td>
+                <td>Dev</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>112</td>
+                <td>Raj</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>113</td>
+                <td>Jey</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>114</td>
+                <td>Dev</td>
+                <td></td>
+            </tr>
+    </table>
+</body>
+</html>
